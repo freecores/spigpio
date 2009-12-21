@@ -1,4 +1,49 @@
-// RTL program for SPI GPIO -- shift 16 bit register
+//////////////////////////////////////////////////////////////////////
+////                                                              ////
+//// SPI GPIO IP Core                                             ////
+////                                                              ////
+//// This file is part of the spigpio project                     ////
+//// http://www.opencores.org/project,spislave                    ////
+////                                                              ////
+//// Description                                                  ////
+//// Implementation of spislave IP core according to              ////
+//// spigpio IP core specification document.                      ////
+////                                                              ////
+//// To Do:                                                       ////
+////   -                                                          ////
+////                                                              ////
+//// Author(s):                                                   ////
+////      - Sivakumar.B , email: siva@zilogic.com                 ////
+////                      email: siva12@opencores.org             ////
+////        Engineer  Zilogic systems,chennai. www.zilogic.com    ////
+////                                                              ////
+//////////////////////////////////////////////////////////////////////
+////                                                              ////
+//// Copyright (C) 2009 Zilogic Systems and OPENCORES.ORG         ////
+////                                                              ////
+//// This source file may be used and distributed without         ////
+//// restriction provided that this copyright statement is not    ////
+//// removed from the file and that any derivative work contains  ////
+//// the original copyright notice and the associated disclaimer. ////
+////                                                              ////
+//// This source file is free software; you can redistribute it   ////
+//// and/or modify it under the terms of the GNU Lesser General   ////
+//// Public License as published by the Free Software Foundation; ////
+//// either version 2.1 of the License, or (at your option) any   ////
+//// later version.                                               ////
+////                                                              ////
+//// This source is distributed in the hope that it will be       ////
+//// useful, but WITHOUT ANY WARRANTY; without even the implied   ////
+//// warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR      ////
+//// PURPOSE. See the GNU Lesser General Public License for more ////
+//// details.                                                     ////
+////                                                              ////
+//// You should have received a copy of the GNU Lesser General    ////
+//// Public License along with this source; if not, download it   ////
+//// from http://www.opencores.org/lgpl.shtml                     ////
+////                                                              ////
+//////////////////////////////////////////////////////////////////////
+////       RTL program for SPI SLAVE -- shift 8 bit register       ////  
 
 `define		P0_OP		7'b0000000 //0x00
 `define		P1_OP		7'b0000001 //0x01

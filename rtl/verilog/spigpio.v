@@ -43,7 +43,7 @@
 //// from http://www.opencores.org/lgpl.shtml                     ////
 ////                                                              ////
 //////////////////////////////////////////////////////////////////////
-////       RTL program for SPI SLAVE -- shift 8 bit register       ////  
+////       RTL program for SPI GPIO --                            ////  
 
 `define		P0_OP		7'b0000000 //0x00
 `define		P1_OP		7'b0000001 //0x01
